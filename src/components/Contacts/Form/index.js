@@ -21,7 +21,7 @@ function Form({addContact, contacts}) {
                 <input type="text" name='fullname' placeholder='Full Name' onChange={onChangeInput} value={form.fullname}/>
             </div><br/>
             <div>
-                <input type="text" name='phone_number' placeholder='Phone Number' onChange={onChangeInput} value={form.phone_number}/>
+                <input type="number" name='phone_number' placeholder='Phone Number' onChange={onChangeInput} value={form.phone_number}/>
             </div>
             <div className='btn'>
                 <button>Add</button>
