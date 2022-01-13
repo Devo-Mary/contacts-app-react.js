@@ -1,7 +1,6 @@
 import {useState} from 'react'
 
 function List({contacts}) {
-    const [isShownHoverContent, setIsShownHoverContent] = useState(false);
     const [filterText, setFilterText] = useState('');
     const filtered = contacts.filter((item) => {
         return Object.keys(item).some((key) =>
